@@ -1,0 +1,18 @@
+                                                               List of databases
+         Name          |  Owner   | Encoding | Locale Provider |   Collate   |    Ctype    | ICU Locale | ICU Rules |    Access privileges     
+-----------------------+----------+----------+-----------------+-------------+-------------+------------+-----------+--------------------------
+ hikaru                | postgres | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | 
+ kitchen_development   | hikaru   | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | 
+ kitchen_test          | hikaru   | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | 
+ postgres              | postgres | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | 
+ rideshare_development | owner    | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | owner=CTc/owner         +
+                       |          |          |                 |             |             |            |           | readwrite_users=Tc/owner+
+                       |          |          |                 |             |             |            |           | readonly_users=c/owner  +
+                       |          |          |                 |             |             |            |           | app_readonly=c/owner
+ template0             | postgres | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | =c/postgres             +
+                       |          |          |                 |             |             |            |           | postgres=CTc/postgres
+ template1             | postgres | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | =c/postgres             +
+                       |          |          |                 |             |             |            |           | postgres=CTc/postgres
+ upcase_exercise       | hikaru   | UTF8     | libc            | ru_RU.UTF-8 | ru_RU.UTF-8 |            |           | 
+(8 rows)
+

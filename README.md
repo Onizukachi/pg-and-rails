@@ -179,3 +179,4 @@ bin/rails server
 Once that's running, visit <http://localhost:3000/pghero> in your browser to see it.
 
 ![Screenshot of PgHero for Rideshare](https://i.imgur.com/VduvxSK.png)
+# pg-and-rails
